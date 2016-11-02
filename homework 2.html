@@ -13,9 +13,23 @@ function hello(name) {
 
 console.log(hello(name))
 
-hello("Niveen")
-hello("Nura")
 
+
+      function team(home, away) {
+        if(home > away) {
+          console.log("The home team won!");
+        }
+        if(home < away) {
+          console.log("The home team lost.");
+        }
+        else if(home == away) {
+          console.log("A tie between the home and away team!")
+        }
+    }
+
+team(10, 20)
+team(20, 10)
+team(20, 20)
 
       </script>
       </body>
